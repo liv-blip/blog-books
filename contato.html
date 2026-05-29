@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato — Folhas & Histórias</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-top">
+      <div class="site-title">Folhas <span>&</span> Histórias</div>
+      <div class="site-tagline">Blog Literário · Resenhas · Dicas · Listas</div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resenhas.html">Resenhas</a></li>
+        <li><a href="dicas.html">Dicas de Leitura</a></li>
+        <li><a href="listas.html">Listas Literárias</a></li>
+        <li><a href="contato.html" class="ativo">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="page-header">
+      <span class="section-label">Fale conosco</span>
+      <h1>Contato</h1>
+      <p>Quer sugerir um livro, enviar uma resenha ou simplesmente dizer olá? Adoramos ouvir de outros leitores!</p>
+    </div>
+
+    <!-- INFO CARDS -->
+    <div class="info-cards mb-40">
+      <div class="info-card">
+        <span class="icone">📖</span>
+        <h4>Indique um Livro</h4>
+        <p>Tem um título que mudou a sua vida? Manda pra gente — pode virar nossa próxima resenha!</p>
+      </div>
+      <div class="info-card">
+        <span class="icone">✍️</span>
+        <h4>Escreva para o Blog</h4>
+        <p>Quer contribuir com resenhas ou artigos? Adoramos colaboradores apaixonados por leitura.</p>
+      </div>
+      <div class="info-card">
+        <span class="icone">🤝</span>
+        <h4>Parcerias</h4>
+        <p>Editoras, livrarias e eventos literários: entre em contato para discutirmos parcerias.</p>
+      </div>
+    </div>
+
+    <!-- FORMULÁRIO -->
+    <div class="contato-form">
+      <div class="section-label">Formulário</div>
+      <h2 class="section-title" style="font-size:1.6rem;">Envie sua mensagem</h2>
+      <div class="section-divider"></div>
+
+      <div class="form-group">
+        <label for="nome">Seu nome</label>
+        <input type="text" id="nome" name="nome" placeholder="Como podemos te chamar?">
+      </div>
+
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="seu@email.com">
+      </div>
+
+      <div class="form-group">
+        <label for="assunto">Assunto</label>
+        <select id="assunto" name="assunto">
+          <option value="">Selecione um assunto...</option>
+          <option value="sugestao">Sugestão de livro</option>
+          <option value="resenha">Quero escrever uma resenha</option>
+          <option value="parceria">Parceria comercial</option>
+          <option value="elogio">Elogio / Feedback</option>
+          <option value="outro">Outro assunto</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem aqui..."></textarea>
+      </div>
+
+      <button type="button" class="btn">Enviar mensagem</button>
+    </div>
+
+    <!-- SOBRE O BLOG -->
+    <div class="artigo" style="margin-top: 50px;">
+      <span class="artigo-tag">Sobre o Blog</span>
+      <h2>Quem somos nós?</h2>
+
+      <p>
+        <em>Folhas & Histórias</em> nasceu da crença de que os livros têm o poder de transformar 
+        pessoas, ampliar perspectivas e criar pontes entre mundos completamente diferentes. 
+        Somos leitores apaixonados que decidiram compartilhar esse amor pela literatura com 
+        quem também vive entre páginas — ou quer começar a viver.
+      </p>
+
+      <p>
+        Aqui você não vai encontrar resenhas escritas para agradar editoras. Você vai encontrar 
+        opiniões honestas, leituras cuidadosas e um espaço onde a literatura é levada a sério, 
+        mas sem perder a leveza e o prazer.
+      </p>
+
+      <blockquote>
+        "A leitura de um bom livro é um diálogo incessante em que o livro fala e a alma responde."
+        — André Maurois
+      </blockquote>
+
+      <p>
+        Seja bem-vindo(a). Puxe uma cadeira, prepare um chá e escolha o próximo livro com a gente.
+      </p>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-brand">
+        <div class="logo">Folhas <span>&</span> Histórias</div>
+        <p>Um blog literário para leitores apaixonados. Resenhas, dicas, listas e muito amor pelos livros.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Páginas</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resenhas.html">Resenhas</a></li>
+          <li><a href="dicas.html">Dicas de Leitura</a></li>
+          <li><a href="listas.html">Listas Literárias</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Sobre</h5>
+        <ul>
+          <li><a href="contato.html">Quem somos</a></li>
+          <li><a href="contato.html">Indique um livro</a></li>
+          <li><a href="contato.html">Parcerias</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2025 Folhas & Histórias · Blog Literário · Todos os direitos reservados
+    </div>
+  </footer>
+
+</body>
+</html>
