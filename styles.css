@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@300;400;600&display=swap');
 
 :root {
-  --cor-fundo: #f5f0e8;
-  --cor-papel: #faf7f2;
-  --cor-principal: #2c1810;
+  --cor-fundo: #f5f4f4;
+  --cor-papel: #da639e;
+  --cor-principal: #ec3e86;
   --cor-acento: #8b4513;
-  --cor-acento2: #c4860a;
-  --cor-texto: #3d2b1f;
-  --cor-texto-leve: #7a5c4e;
-  --cor-borda: #d4c4b0;
-  --cor-destaque: #e8ddd0;
+  --cor-acento2: #f596f0;
+  --cor-texto: #050302;
+  --cor-texto-leve: #000000;
+  --cor-borda: #ad9e8b;
+  --cor-destaque: #ff6cc2;
   --sombra: 0 4px 20px rgba(44,24,16,0.12);
   --sombra-forte: 0 8px 40px rgba(44,24,16,0.2);
 }
