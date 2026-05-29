@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@300;400;600&display=swap');
 
 :root {
-  --cor-fundo: #f5f4f4;
-  --cor-papel: #da639e;
-  --cor-principal: #ec3e86;
-  --cor-acento: #8b4513;
-  --cor-acento2: #f596f0;
-  --cor-texto: #050302;
-  --cor-texto-leve: #000000;
-  --cor-borda: #ad9e8b;
-  --cor-destaque: #ff6cc2;
-  --sombra: 0 4px 20px rgba(44,24,16,0.12);
-  --sombra-forte: 0 8px 40px rgba(44,24,16,0.2);
+  --cor-fundo: #fff7fb;
+  --cor-papel: #ffffff;
+
+  --cor-principal: #e8a0bf;
+  --cor-acento: #d97aa6;
+  --cor-acento2: #f7c6dc;
+
+  --cor-texto: #5e4b56;
+  --cor-texto-leve: #7d6874;
+
+  --cor-borda: #f1d4e2;
+  --cor-destaque: #ffe4f0;
+
+  --sombra: 0 4px 20px rgba(232, 160, 191, 0.12);
+  --sombra-forte: 0 8px 40px rgba(232, 160, 191, 0.2);
 }
 
 * {
@@ -44,7 +48,7 @@ header {
   text-align: center;
   padding: 28px 20px 20px;
   border-bottom: 1px solid rgba(255,255,255,0.1);
-  background: linear-gradient(135deg, #2c1810 0%, #4a2c1a 50%, #2c1810 100%);
+  background: linear-gradient(135deg, #f7c6dc 0%, #e8a0bf 50%, #d97aa6 100%);
   position: relative;
   overflow: hidden;
 }
@@ -74,7 +78,7 @@ header {
   font-size: clamp(2rem, 5vw, 3.2rem);
   font-weight: 900;
   font-style: italic;
-  color: #f5e6c8;
+  color: #fffafb;
   letter-spacing: 2px;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
 }
@@ -94,7 +98,7 @@ header {
 
 /* ===== NAV ===== */
 nav {
-  background-color: #1a0e09;
+  background-color: #f4bfd6;
 }
 
 nav ul {
@@ -152,7 +156,7 @@ main {
 
 /* ===== HERO SECTION ===== */
 .hero {
-  background: linear-gradient(135deg, var(--cor-principal) 0%, #5c3020 100%);
+  background: linear-gradient(135deg, #f7c6dc 0%, #e8a0bf 100%);
   color: var(--cor-fundo);
   padding: 70px 50px;
   border-radius: 4px;
@@ -193,7 +197,7 @@ main {
   font-weight: 900;
   line-height: 1.2;
   margin-bottom: 20px;
-  color: #f5e6c8;
+  color: #fffafb;
 }
 
 .hero p {
@@ -271,7 +275,7 @@ main {
   align-items: center;
   justify-content: center;
   font-size: 4rem;
-  background: linear-gradient(135deg, #3d1f10 0%, #6b3520 60%, #3d1f10 100%);
+  background: linear-gradient(135deg, #ffd6e7 0%, #f7c6dc 60%, #e8a0bf 100%);
 }
 
 .card-body {
@@ -378,7 +382,7 @@ main {
   align-items: center;
   justify-content: center;
   font-size: 3.5rem;
-  background: linear-gradient(135deg, #2c1810 0%, #6b3520 60%, #2c1810 100%);
+  background: linear-gradient(135deg, #ffd9ea 0%, #f7c6dc 60%, #e8a0bf 100%);
   position: relative;
   overflow: hidden;
 }
@@ -639,7 +643,7 @@ main {
 .btn {
   display: inline-block;
   background: var(--cor-principal);
-  color: #f5e6c8;
+  color: #fffafb;
   border: none;
   padding: 14px 36px;
   font-family: 'Josefin Sans', sans-serif;
@@ -653,7 +657,7 @@ main {
 }
 
 .btn:hover {
-  background: var(--cor-acento);
+  background: #c96595;
   transform: translateY(-2px);
   box-shadow: var(--sombra);
 }
@@ -696,7 +700,7 @@ main {
 
 /* ===== RODAPÉ ===== */
 footer {
-  background: var(--cor-principal);
+  background: #d97aa6;
   color: rgba(245,230,200,0.8);
   margin-top: 60px;
 }
@@ -719,7 +723,7 @@ footer {
   font-size: 1.5rem;
   font-weight: 900;
   font-style: italic;
-  color: #f5e6c8;
+  color: #fffafb;
   margin-bottom: 12px;
 }
 
