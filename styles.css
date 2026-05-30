@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@300;400;600&family=Dancing+Script:wght@600;700&display=swap');
 
 :root {
-  --cor-fundo: #f5f4f4;
-  --cor-papel: #da639e;
-  --cor-principal: #ec3e86;
-  --cor-acento: #8b4513;
-  --cor-acento2: #f596f0;
-  --cor-texto: #050302;
-  --cor-texto-leve: #000000;
-  --cor-borda: #ad9e8b;
-  --cor-destaque: #ff6cc2;
-  --sombra: 0 4px 20px rgba(44,24,16,0.12);
-  --sombra-forte: 0 8px 40px rgba(44,24,16,0.2);
+  --cor-fundo: #fff0f5;
+  --cor-papel: #fff8fb;
+  --cor-principal: #7b2d4e;
+  --cor-acento: #c2577a;
+  --cor-acento2: #e8a0b4;
+  --cor-texto: #4a1a2e;
+  --cor-texto-leve: #9e6070;
+  --cor-borda: #f0c4d4;
+  --cor-destaque: #fde8f0;
+  --sombra: 0 4px 20px rgba(194,87,122,0.12);
+  --sombra-forte: 0 8px 40px rgba(194,87,122,0.22);
 }
 
 * {
@@ -26,8 +26,8 @@ body {
   font-family: 'Lora', serif;
   line-height: 1.8;
   background-image: 
-    radial-gradient(circle at 20% 50%, rgba(196,134,10,0.04) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(139,69,19,0.05) 0%, transparent 40%);
+    radial-gradient(circle at 20% 50%, rgba(232,160,180,0.10) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(194,87,122,0.07) 0%, transparent 40%);
 }
 
 /* ===== HEADER ===== */
@@ -44,7 +44,7 @@ header {
   text-align: center;
   padding: 28px 20px 20px;
   border-bottom: 1px solid rgba(255,255,255,0.1);
-  background: linear-gradient(135deg, #2c1810 0%, #4a2c1a 50%, #2c1810 100%);
+  background: linear-gradient(135deg, #7b2d4e 0%, #b05070 50%, #7b2d4e 100%);
   position: relative;
   overflow: hidden;
 }
@@ -70,13 +70,12 @@ header {
 }
 
 .site-title {
-  font-family: 'Playfair Display', serif;
-  font-size: clamp(2rem, 5vw, 3.2rem);
-  font-weight: 900;
-  font-style: italic;
-  color: #2b2b2b;
+  font-family: 'Dancing Script', cursive;
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  font-weight: 700;
+  color: #fde8f0;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
 }
 
 .site-title span {
@@ -88,7 +87,7 @@ header {
   font-size: 0.75rem;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: rgba(43,43,43,0.6);
+  color: rgba(245,230,200,0.6);
   margin-top: 4px;
 }
 
@@ -110,7 +109,7 @@ nav ul {
 nav ul li a {
   display: block;
   padding: 14px 22px;
-  color: rgba(43,43,43,0.8);
+  color: rgba(245,230,200,0.8);
   text-decoration: none;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 0.8rem;
@@ -152,7 +151,7 @@ main {
 
 /* ===== HERO SECTION ===== */
 .hero {
-  background: linear-gradient(135deg, var(--cor-principal) 0%, #5c3020 100%);
+  background: linear-gradient(135deg, var(--cor-principal) 0%, #a84060 100%);
   color: var(--cor-fundo);
   padding: 70px 50px;
   border-radius: 4px;
@@ -193,14 +192,14 @@ main {
   font-weight: 900;
   line-height: 1.2;
   margin-bottom: 20px;
-  color: #2b2b2b;
+  color: #f5e6c8;
 }
 
 .hero p {
   font-size: 1.05rem;
   line-height: 1.9;
   max-width: 700px;
-  color: rgba(43,43,43,0.85);
+  color: rgba(245,230,200,0.85);
   margin-bottom: 28px;
 }
 
@@ -271,7 +270,7 @@ main {
   align-items: center;
   justify-content: center;
   font-size: 4rem;
-  background: linear-gradient(135deg, #3d1f10 0%, #6b3520 60%, #3d1f10 100%);
+  background: linear-gradient(135deg, #7b2d4e 0%, #c2577a 60%, #7b2d4e 100%);
 }
 
 .card-body {
@@ -378,7 +377,7 @@ main {
   align-items: center;
   justify-content: center;
   font-size: 3.5rem;
-  background: linear-gradient(135deg, #2c1810 0%, #6b3520 60%, #2c1810 100%);
+  background: linear-gradient(135deg, #7b2d4e 0%, #c2577a 60%, #7b2d4e 100%);
   position: relative;
   overflow: hidden;
 }
@@ -551,7 +550,6 @@ main {
   justify-content: center;
   font-size: 2.5rem;
   background: linear-gradient(135deg, var(--cor-acento) 0%, var(--cor-principal) 100%);
-  box-shadow: 3px 3px 10px rgba(44,24,16,0.2);
 }
 
 .livro-info h3 {
@@ -639,7 +637,7 @@ main {
 .btn {
   display: inline-block;
   background: var(--cor-principal);
-  color: #2b2b2b;
+  color: #f5e6c8;
   border: none;
   padding: 14px 36px;
   font-family: 'Josefin Sans', sans-serif;
@@ -697,7 +695,7 @@ main {
 /* ===== RODAPÉ ===== */
 footer {
   background: var(--cor-principal);
-  color: rgba(43,43,43,0.8);
+  color: rgba(245,230,200,0.8);
   margin-top: 60px;
 }
 
@@ -715,11 +713,10 @@ footer {
 }
 
 .footer-brand .logo {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.5rem;
-  font-weight: 900;
-  font-style: italic;
-  color: #2b2b2b;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fde8f0;
   margin-bottom: 12px;
 }
 
@@ -750,7 +747,7 @@ footer {
 }
 
 .footer-col ul li a {
-  color: rgba(43,43,43,0.7);
+  color: rgba(245,230,200,0.7);
   text-decoration: none;
   font-size: 0.88rem;
   transition: color 0.2s;
@@ -767,7 +764,7 @@ footer {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 0.72rem;
   letter-spacing: 1px;
-  color: rgba(43,43,43,0.4);
+  color: rgba(245,230,200,0.4);
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -791,4 +788,3 @@ footer {
   .livro-capa { width: 60px; height: 85px; font-size: 2rem; }
   nav ul li a { padding: 12px 14px; font-size: 0.7rem; letter-spacing: 1px; }
 }
-
